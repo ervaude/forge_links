@@ -9,6 +9,6 @@ forge_links works on current master (9-dev) and schould be also working on 8LTS 
 
 How to use it
 ---
-Install the extension, make sure the classes are loaded. You know have an additional tab in the link wizard called
-"Forge Issue Number". It shiould be functional out of the box. However to edit an existing link the hook needs to
+Install the extension, make sure the classes are loaded. You now have an additional tab in the link wizard called
+"Forge Issue Number". It should be functional out of the box. However to be able to edit an existing link the new hook needs to
 be present in the TYPO3 Core (https://review.typo3.org/#/c/56730/).
