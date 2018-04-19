@@ -7,7 +7,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['linkHandler']['forge']
 $GLOBALS['TYPO3_CONF_VARS']['FE']['typolinkBuilder']['forge']
     = \DanielGoerz\ForgeLinks\Typolink\ForgeLinkBuilder::class;
 
-$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['TYPO3\CMS\Core\LinkHandling\LinkService']['resolveByStringRepresentation'][]
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['Link']['resolveByStringRepresentation'][]
     = 'DanielGoerz\ForgeLinks\LinkHandling\ForgeLinkHandler->resolveByStringRepresentation';
 
 // Register new link handler
